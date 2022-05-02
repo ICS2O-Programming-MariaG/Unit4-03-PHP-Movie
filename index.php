@@ -41,7 +41,10 @@
         </form>
       </div>
     </div>
-    <!-- Iframe for results -->
-    <iframe id="results" name="results"></iframe>
+    <!-- Div for background colour -->
+    <div id="green">
+      <!-- Iframe for results -->
+      <iframe id="results" name="results"></iframe>
+    </div>
   </body>
 </html>

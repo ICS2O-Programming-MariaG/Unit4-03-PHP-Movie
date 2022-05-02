@@ -11,7 +11,8 @@ body {
 }
 
 #scroll-boundary {
-  border: 2px dashed black;
+  border: 1px dashed black;
+  background-color: #f2e5fe;
 }
 
 h1 {
@@ -22,9 +23,33 @@ h1 {
   background-image: url(../images/slate.jpg);
   color: white;
   padding: 30px;
+  margin: 30px 0px;
 }
 
 #margin {
   width: 80%;
   margin: 80px 10% 5% 10%;
+}
+
+h3 {
+  color: yellow;
+}
+
+#button {
+  padding: 5px 10px;
+  background-color: #b7ecfe;
+  border: none;
+}
+
+#green {
+  width: 100%;
+  background-color: #dafcee;
+}
+
+iframe {
+  border: none;
+  width: 80%;
+  margin-left: 10%;
+  padding: 20px 0px;
+  height: 60px;
 }
