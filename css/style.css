@@ -6,4 +6,25 @@
 
 body {
   font-family: Helvetica, Arial, sans-serif;
+  width: 80%;
+  margin: 5% 10%;
+}
+
+#scroll-boundary {
+  border: 2px dashed black;
+}
+
+h1 {
+  color: red;
+}
+
+#image-background {
+  background-image: url(../images/slate.jpg);
+  color: white;
+  padding: 30px;
+}
+
+#margin {
+  width: 80%;
+  margin: 80px 10% 5% 10%;
 }
