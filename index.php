@@ -36,7 +36,7 @@
         <!-- Form for user input -->
         <form action="./verify.php" method="post" target="results">
           <label for="age">How old are you?</label>
-          <input type="number" step="1" min="1" name="user-age" placeholder="Your age..."><br><br>
+          <input type="number" step="1" min="1" max="120" name="user-age" placeholder="Your age..."><br><br>
           <input type="submit" id="button" value="Check">
         </form>
       </div>
